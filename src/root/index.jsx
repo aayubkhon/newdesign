@@ -1,10 +1,10 @@
 import React from 'react'
-import Test from '../Components/test'
+import Navbar from '../Components/Navbar'
 
 const Root = () => {
   return (
     <div>
-        <Test/>
+        <Navbar/>
     </div>
   )
 }
