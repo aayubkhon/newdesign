@@ -1,27 +1,34 @@
-import React from 'react'
-import { Container, Main, Nav, Wrapper } from './style'
-import head from "../../Assets/Logo/head.svg"
-const Navbar = () => {
-  return (
-    <Container>
-      <Wrapper>
-        <p>Welcome to our online shop</p>
-        <Main>
-        <Nav>
-          <select>
-            <option>English(USD)</option>
-            <option>Korean(한국)</option>
-          </select>
-          <img src={head} alt="" />
-          <button>Login</button>
-          <p>or</p>
-          <button>Sign Up</button>
-        </Nav>
-        </Main>
-      </Wrapper>
-      asdsa
-    </Container>
-  )
-}
+import React from "react";
+import { Container } from "./style";
+import logo from "../../Assets/Logo/logo.svg"
+import search from "../../Assets/Logo/search.svg"
+import belt from "../../Assets/Logo/belt.svg"
+import shop from "../../Assets/Logo/shop.svg"
+import contact from "../../Assets/Logo/contact.svg"
 
-export default Navbar
+const Navbar = () => {
+  return <Container>
+    <div>
+        <div>
+            <img src={logo} alt="" />
+            <p>Furniking</p>
+        </div>
+        <div>
+            <input type="text" placeholder="Search here" />
+            <select>
+                <option>Categories</option>
+                <option>Sofa</option>
+                <option>Chair</option>
+            </select>
+            <img src={search} alt="" />
+        </div>
+        <div>
+            <img src={shop} alt="" />
+            <img src={belt} alt="" />
+            <img src={contact} alt="" />
+        </div>
+    </div>
+  </Container>;
+};
+
+export default Navbar;
