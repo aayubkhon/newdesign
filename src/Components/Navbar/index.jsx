@@ -1,34 +1,48 @@
 import React from "react";
-import { Container } from "./style";
-import logo from "../../Assets/Logo/logo.svg"
-import search from "../../Assets/Logo/search.svg"
-import belt from "../../Assets/Logo/belt.svg"
-import shop from "../../Assets/Logo/shop.svg"
-import contact from "../../Assets/Logo/contact.svg"
+import {
+  Container,
+  ImgLogo,
+  Input,
+  Item,
+  Icons,
+  Logo,
+  LogoTitle,
+  MainLogo,
+  Search,
+  SearchBox,
+  Wrapper,
+} from "./style";
+import logo from "../../Assets/Logo/logo.svg";
+import search from "../../Assets/Logo/sear.svg";
+import belt from "../../Assets/Logo/belt.svg";
+import shop from "../../Assets/Logo/shop.svg";
+import contact from "../../Assets/Logo/contact.svg";
 
 const Navbar = () => {
-  return <Container>
-    <div>
-        <div>
-            <img src={logo} alt="" />
-            <p>Furniking</p>
-        </div>
-        <div>
-            <input type="text" placeholder="Search here" />
-            <select>
-                <option>Categories</option>
-                <option>Sofa</option>
-                <option>Chair</option>
-            </select>
-            <img src={search} alt="" />
-        </div>
-        <div>
-            <img src={shop} alt="" />
-            <img src={belt} alt="" />
-            <img src={contact} alt="" />
-        </div>
-    </div>
-  </Container>;
+  return (
+    <Container>
+      <MainLogo>
+       <ImgLogo src={logo} alt="" />
+        <LogoTitle>Furniking</LogoTitle>
+      </MainLogo>
+      <Wrapper>
+        <Input type="text" placeholder="Search here" />
+        <Item>
+          <option>Categories</option>
+          <option>Chair</option>
+          <option>Sofa</option>
+        </Item>
+        <SearchBox>
+          <Search src={search} alt="" />
+        </SearchBox>
+      </Wrapper>
+      <Logo>
+          <Icons src={shop} alt="" />
+          <Icons src={belt} alt="" />
+          <Icons src={contact} alt="" />
+      </Logo>
+    </Container>
+  );
 };
 
 export default Navbar;
