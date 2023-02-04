@@ -6,8 +6,8 @@ import Navbar from '../Components/Navbar'
 const Root = () => {
   return (
     <div>
-        <Header/>
-        <HeaderItem/>
+        {/* <Header/>
+        <HeaderItem/> */}
         <Navbar/>
     </div>
   )
