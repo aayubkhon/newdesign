@@ -19,11 +19,17 @@ const Container = styled.div`
 
 const Main = styled.div`
   display: flex;
+  flex-direction:column;
   `;
 
-const Wrapper = styled.div`
+const Mains = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
+  margin-top:30px;
+  `;
+  
+
+const Wrapper = styled.div`
   margin-left: 80px;
 `;
 
@@ -93,4 +99,5 @@ export {
   DropMneu,
   Nav,
   NavItem,
+  Mains
 };
