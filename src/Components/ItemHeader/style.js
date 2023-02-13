@@ -30,8 +30,10 @@ const MainLogo = styled.div`
 
 
 const ImgLogo = styled.img`
+margin-bottom:30px;
   width: 50px;
   height: 40px;
+  margin-top:20px;
   cursor: pointer;
 
 `;
@@ -42,6 +44,7 @@ const LogoTitle = styled.p`
   font-weight: 500;
   font-size: 24px;
   color: #555555;
+  margin-top:20px;
 `;
 
 const Input = styled.input`
@@ -53,6 +56,8 @@ const Input = styled.input`
   padding-left: 20px;
   ${common}
 `;
+
+
 
 const Search = styled.img`
   width: 20px;
@@ -72,6 +77,7 @@ const Item = styled.select`
   position: absolute;
   border: 1px solid #7ac751;
   left: 71%;
+  font-size:14px;
   cursor: pointer;
 `;
 
@@ -86,14 +92,16 @@ const Icons = styled.img`
 
 const SearchBox = styled.div`
   background: #7ac751;
-  width: 58px;
-  height: 43px;
+  width: 55px;
+  height: 42px;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  left: 88%;
-  border-radius: 3px;
+  left: 89%;
+  border-radius:8px;
+  border-top-left-radius:0;
+  border-bottom-left-radius:0;
   box-sizing: border-box;
 `;
 const Logo = styled.div`

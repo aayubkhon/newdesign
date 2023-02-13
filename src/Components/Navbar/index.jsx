@@ -10,7 +10,6 @@ import {
   NavItem,
   Wrapper,
   Main,
-  Mains,
 } from "./style";
 import { Collections } from "../mock/data";
 import menu from "../../Assets/Logo/menu.svg";
@@ -26,109 +25,28 @@ const Navbar = () => {
           </Button>
         </Menu>
         <Main>
-        {isOpen && (
+          {isOpen && (
            <DropMneu>
-            {Collections.map((value) => {
-              return (
-                <div key={value.id}>
-                  <TableName>{value.name}</TableName>
-                </div>
-              );
-            })}
-          </DropMneu>
-        )}
+           {Collections.map((value) => {
+             return (
+               <div key={value.id}>
+                 <TableName>{value.name}</TableName>
+               </div>
+             );
+           })}
+         </DropMneu>
+          )}
         </Main>
       </Wrapper>
       <Main>
-       <Nav>
+        <Nav>
           <NavItem>HOME</NavItem>
           <NavItem>SHOP</NavItem>
           <NavItem>BLOG</NavItem>
           <NavItem>ABOUT</NavItem>
           <NavItem>CONTACT US</NavItem>
         </Nav>
-        <Mains>
-          <p>asdasd</p>
-        </Mains>
-       </Main>
-       <Main>
-       <Nav>
-          <NavItem>HOME</NavItem>
-          <NavItem>SHOP</NavItem>
-          <NavItem>BLOG</NavItem>
-          <NavItem>ABOUT</NavItem>
-          <NavItem>CONTACT US</NavItem>
-        </Nav>
-        <Mains>
-          <p>asdasd</p>
-        </Mains>
-       </Main> <Main>
-       <Nav>
-          <NavItem>HOME</NavItem>
-          <NavItem>SHOP</NavItem>
-          <NavItem>BLOG</NavItem>
-          <NavItem>ABOUT</NavItem>
-          <NavItem>CONTACT US</NavItem>
-        </Nav>
-        <Mains>
-          <p>asdasd</p>
-        </Mains>
-       </Main> <Main>
-       <Nav>
-          <NavItem>HOME</NavItem>
-          <NavItem>SHOP</NavItem>
-          <NavItem>BLOG</NavItem>
-          <NavItem>ABOUT</NavItem>
-          <NavItem>CONTACT US</NavItem>
-        </Nav>
-        <Mains>
-          <p>asdasd</p>
-        </Mains>
-       </Main> <Main>
-       <Nav>
-          <NavItem>HOME</NavItem>
-          <NavItem>SHOP</NavItem>
-          <NavItem>BLOG</NavItem>
-          <NavItem>ABOUT</NavItem>
-          <NavItem>CONTACT US</NavItem>
-        </Nav>
-        <Mains>
-          <p>asdasd</p>
-        </Mains>
-       </Main> <Main>
-       <Nav>
-          <NavItem>HOME</NavItem>
-          <NavItem>SHOP</NavItem>
-          <NavItem>BLOG</NavItem>
-          <NavItem>ABOUT</NavItem>
-          <NavItem>CONTACT US</NavItem>
-        </Nav>
-        <Mains>
-          <p>asdasd</p>
-        </Mains>
-       </Main> <Main>
-       <Nav>
-          <NavItem>HOME</NavItem>
-          <NavItem>SHOP</NavItem>
-          <NavItem>BLOG</NavItem>
-          <NavItem>ABOUT</NavItem>
-          <NavItem>CONTACT US</NavItem>
-        </Nav>
-        <Mains>
-          <p>asdasd</p>
-        </Mains>
-       </Main> <Main>
-       <Nav>
-          <NavItem>HOME</NavItem>
-          <NavItem>SHOP</NavItem>
-          <NavItem>BLOG</NavItem>
-          <NavItem>ABOUT</NavItem>
-          <NavItem>CONTACT US</NavItem>
-        </Nav>
-        <Mains>
-          <p>asdasd</p>
-        </Mains>
-       </Main>
+      </Main>
     </Container>
   );
 };

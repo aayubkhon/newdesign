@@ -37,7 +37,7 @@ const Nav = styled.div`
 `;
 
 const Title = styled.p`
-  margin-left: 80px;
+  margin: 10px 80px;
   ${common}
 `;
 const Select = styled.select`
@@ -66,7 +66,7 @@ const Button = styled.button`
 `;
 const Something = styled.p`
   ${common}
-  margin-left:15px;
+  margin:10px 15px;
 `;
 
 export {

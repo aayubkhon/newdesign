@@ -19,15 +19,14 @@ const Container = styled.div`
 
 const Main = styled.div`
   display: flex;
-  flex-direction:column;
-  `;
+  flex-direction: column;
+`;
 
-const Mains = styled.div`
-  display: flex;
-  flex-direction:column;
-  margin-top:30px;
-  `;
-  
+// const CarouselSec = styled.div`
+//   display: flex;
+//   flex-direction: column;
+//   margin:15px 10px;
+// `;
 
 const Wrapper = styled.div`
   margin-left: 80px;
@@ -65,26 +64,31 @@ const Button = styled.button`
 const DropMneu = styled.div`
   display: flex;
   flex-direction: column;
+  align-items:center;
+  justify-content:center;
 `;
 
 const TableName = styled.p`
   ${common}
   background: #F7F8FA;
-  border: 0.8px solid #e3e3e3;
-  width: 250px;
-  height: 40px;
-  padding: 10px 20px;
+  width:250px;
+  height:50px;
+  border: 0.8px solid #E3E3E3;
+  padding:20px 29px;
+  margin:0;
   cursor: pointer;
 `;
 const Nav = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width:710px;
+  width: 710px;
 `;
 
 const NavItem = styled.p`
   ${common}
+  text-align:center;
+  margin-top:20px;
   cursor: pointer;
 `;
 
@@ -99,5 +103,4 @@ export {
   DropMneu,
   Nav,
   NavItem,
-  Mains
 };

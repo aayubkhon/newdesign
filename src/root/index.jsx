@@ -2,15 +2,15 @@ import React from 'react'
 import Header from '../Components/Header'
 import HeaderItem from '../Components/ItemHeader'
 import Navbar from '../Components/Navbar'
-import { Container } from './style'
-
+import HeadCarousel from '../Components/Navbar/Carousel'
 const Root = () => {
   return (
-    <Container>
+    <div>
         <Header/>
         <HeaderItem/>
         <Navbar/>
-    </Container>
+        <HeadCarousel/>
+    </div>
   )
 }
 
