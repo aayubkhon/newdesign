@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-width:100px;
-height:100px;
-background-color:blue;
-margin-left:100px;
+width:800px;
+height:439px;
+background:red;
+display:flex;
+align-items:center;
+flex-direction:column;
+margin-top:20px;
 `
 
 

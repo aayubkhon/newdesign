@@ -19,32 +19,39 @@ const Container = styled.div`
 
 const Main = styled.div`
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  box-sizing:border-box;
 `;
 
-// const CarouselSec = styled.div`
-//   display: flex;
-//   flex-direction: column;
-//   margin:15px 10px;
-// `;
+const CarouselSection = styled.div`
+  margin-top: 60px;
+  margin-left: 10px;
+`;
 
 const Wrapper = styled.div`
-  margin-left: 80px;
-`;
-
-const Menu = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
 `;
 
+const DropDown = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+const Menu = styled.div`
+  display: flex;
+  margin-left: 70px;
+`;
+
 const MenuLogo = styled.img`
+  position: absolute;
   width: 24px;
   height: 24px;
   background: #7ac751;
-  position: absolute;
-  left: 20px;
-  top: 10px;
+  left: 30px;
+  top: 12px;
   cursor: pointer;
 `;
 
@@ -64,31 +71,32 @@ const Button = styled.button`
 const DropMneu = styled.div`
   display: flex;
   flex-direction: column;
-  align-items:center;
-  justify-content:center;
+  align-items: center;
+  justify-content: center;
 `;
 
 const TableName = styled.p`
   ${common}
   background: #F7F8FA;
-  width:250px;
-  height:50px;
-  border: 0.8px solid #E3E3E3;
-  padding:20px 29px;
-  margin:0;
+  width: 250px;
+  height: 50px;
+  border: 0.8px solid #e3e3e3;
+  padding: 20px 29px;
+  margin: 0;
   cursor: pointer;
 `;
 const Nav = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 710px;
+  justify-content:center;
+  box-sizing:border-box;
+
 `;
 
 const NavItem = styled.p`
   ${common}
   text-align:center;
-  margin-top:20px;
+  margin: 20px 60px;
   cursor: pointer;
 `;
 
@@ -96,6 +104,7 @@ export {
   Container,
   Main,
   Wrapper,
+  DropDown,
   Menu,
   Button,
   MenuLogo,
@@ -103,4 +112,5 @@ export {
   DropMneu,
   Nav,
   NavItem,
+  CarouselSection,
 };

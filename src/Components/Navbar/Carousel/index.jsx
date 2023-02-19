@@ -1,13 +1,23 @@
 import React from 'react'
 import { Carousel } from 'antd'
 import { Container } from './style'
-const HeadCarousel = () => {
+const NavCarousel = () => {
 
   return (
     <Container>
-        <h1>asdasda</h1>
+      <Carousel autoplay dots={true} >
+      <div>
+        <h3>1</h3>
+      </div><div>
+        <h3>2</h3>
+      </div><div>
+        <h3>3</h3>
+      </div><div>
+        <h3>4</h3>
+      </div>
+      </Carousel>
     </Container>
   )
 }
 
-export default HeadCarousel
+export default NavCarousel
