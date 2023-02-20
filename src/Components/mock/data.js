@@ -10,3 +10,4 @@ export const Collections = [
     {id:9,  name: 'Benches'},
 
 ]
+

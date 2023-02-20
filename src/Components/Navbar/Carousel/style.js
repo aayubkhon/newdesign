@@ -1,14 +1,31 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-width:800px;
-height:439px;
-background:red;
 display:flex;
-align-items:center;
 flex-direction:column;
-margin-top:20px;
+padding-left:150px;
+`
+const Wrapper = styled.div`
+display:flex;
+flex-direction:column;
+margin-left:180px;
+
 `
 
+const ImgSec = styled.div`
+display:flex;
+align-items:center;
+justify-content:center; 
+`
 
-export{Container}
+const Img = styled.img`
+width:900px;
+height:440px;
+margin-top:10px;
+cursor: pointer;
+:active {
+    opacity: 0.9;
+  }
+`
+
+export{Container,Wrapper,ImgSec,Img}

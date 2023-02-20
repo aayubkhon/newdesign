@@ -21,13 +21,8 @@ const Main = styled.div`
   display: flex;
   align-items: center;
   justify-content:center;
-  box-sizing:border-box;
 `;
 
-const CarouselSection = styled.div`
-  margin-top: 60px;
-  margin-left: 10px;
-`;
 
 const Wrapper = styled.div`
   position: relative;
@@ -88,10 +83,9 @@ const TableName = styled.p`
 const Nav = styled.div`
   display: flex;
   align-items: center;
-  justify-content:center;
-  box-sizing:border-box;
+  justify-content:space-between;
 
-`;
+`
 
 const NavItem = styled.p`
   ${common}
@@ -112,5 +106,4 @@ export {
   DropMneu,
   Nav,
   NavItem,
-  CarouselSection,
 };
