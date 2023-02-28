@@ -24,7 +24,12 @@ flex-direction:column;
 
 export const ChairImg = styled.img`
 width:300px;
-height:320px;`
+height:320px;
+cursor:pointer;
+`
+
+
+
 export const Title = styled.p`
 ${common}
 font-family: 'Mulish';

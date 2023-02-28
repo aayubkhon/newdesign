@@ -4,8 +4,11 @@ import HeaderItem from '../Components/ItemHeader'
 import Navbar from '../Components/Navbar'
 import NavCarousel from '../Components/Navbar/Carousel'
 import OrderIcon from '../Components/OrderSec'
+import OurProduct from '../Components/OurProduct'
+import AllProduct from '../Components/OurProduct/AllProducts'
 import Trending from '../Components/Product'
-import TopProduct from '../Components/TopProduct'
+import TopProduct from '../Components/Product/TopProduct'
+import Testimonials from '../Components/Testimonials'
 const Root = () => {
   return (
     <div>
@@ -16,6 +19,9 @@ const Root = () => {
         <OrderIcon/>
         <Trending/>
         <TopProduct/>
+        <OurProduct/>
+        <AllProduct/>
+        <Testimonials/>
     </div>
   )
 }

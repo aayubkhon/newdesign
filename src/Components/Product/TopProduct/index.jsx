@@ -1,7 +1,6 @@
 import React from "react";
 import { ChairImg, Container, Items, Price, Sale, Size, Title, Wrapper } from "./style";
-import { Products } from "../mock/trading";
-import sofa from "../../Assets/Img/sofa1.png";
+import {Products} from "../../mock/trading"
 const TopProduct = () => {
   return (
     <Container>
