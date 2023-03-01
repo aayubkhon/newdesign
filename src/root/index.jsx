@@ -4,6 +4,7 @@ import HeaderItem from '../Components/ItemHeader'
 import Navbar from '../Components/Navbar'
 import NavCarousel from '../Components/Navbar/Carousel'
 import OrderIcon from '../Components/OrderSec'
+import Lates from '../Components/OurLates'
 import OurProduct from '../Components/OurProduct'
 import AllProduct from '../Components/OurProduct/AllProducts'
 import Trending from '../Components/Product'
@@ -22,6 +23,7 @@ const Root = () => {
         <OurProduct/>
         <AllProduct/>
         <Testimonials/>
+        <Lates/>
     </div>
   )
 }
