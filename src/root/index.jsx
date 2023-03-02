@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Components/Footer'
 import Header from '../Components/Header'
 import HeaderItem from '../Components/ItemHeader'
 import Navbar from '../Components/Navbar'
@@ -24,6 +25,7 @@ const Root = () => {
         <AllProduct/>
         <Testimonials/>
         <Lates/>
+        <Footer/>
     </div>
   )
 }
