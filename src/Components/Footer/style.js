@@ -10,40 +10,42 @@ const common = css`
 `;
 
 const Container = styled.div`
-  margin-top:80px;
+  margin-top: 80px;
 `;
 
 const Wrapper = styled.div`
   display: flex;
-  align-items: center; 
-  justify-content:space-around;
+  align-items: center;
+  justify-content: space-evenly;
 `;
 const LogoItems = styled.div`
   display: flex;
-  align-items: center;
+  align-items:center;
 `;
 const MainItems = styled.div`
   display: flex;
-  align-items:center;
-  flex-direction:column; 
+  flex-direction: column;
 `;
 
 const Logo = styled.img`
   width: 45px;
   height: 45px;
+  margin-left: 5px;
 `;
 
 const Title = styled.p`
   ${common}
   margin:0;
   padding: 0;
+  font-size: 24px;
 `;
 
 const BoxTitles = styled.p`
   ${common}
   margin:0;
   padding: 0;
+  margin-top: 17px;
   font-size: 16px;
 `;
 
-export { Container, Wrapper, MainItems, LogoItems, Logo,BoxTitles, Title };
+export { Container, Wrapper, MainItems, LogoItems, Logo, BoxTitles, Title };
