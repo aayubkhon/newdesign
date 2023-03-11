@@ -7,6 +7,8 @@ import {
   Logo,
   Title,
   BoxTitles,
+  SLOgo,
+  SNS,
 } from "./style";
 import logos from "../../Assets/Logo/logo.svg";
 import facebook from "../../Assets/Logo/facebook.svg";
@@ -23,15 +25,17 @@ const Footer = () => {
             <Logo src={logos} alt="" />
             <Title>Furniking</Title>
           </LogoItems>
-          <BoxTitles>Chicago</BoxTitles>
+         <div>
+         <BoxTitles>Chicago</BoxTitles>
           <BoxTitles>Los Angels</BoxTitles>
           <BoxTitles>Miami</BoxTitles>
-          <LogoItems>
-            <Logo src={facebook} alt="" />
-            <Logo src={instagram} alt="" />
-            <Logo src={twitter} alt="" />
-            <Logo src={painterest} alt="" />
-          </LogoItems>
+         </div>
+         <SLOgo>
+          <SNS src={facebook} alt="" />
+          <SNS src={instagram} alt="" />
+          <SNS src={twitter} alt="" />
+          <SNS src={painterest} alt="" />
+         </SLOgo>
         </MainItems>
         <div>
           <Title>Help</Title>

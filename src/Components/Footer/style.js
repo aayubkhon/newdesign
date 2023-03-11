@@ -11,6 +11,7 @@ const common = css`
 
 const Container = styled.div`
   margin-top: 80px;
+width:100%;
 `;
 
 const Wrapper = styled.div`
@@ -25,12 +26,15 @@ const LogoItems = styled.div`
 const MainItems = styled.div`
   display: flex;
   flex-direction: column;
+
 `;
 
 const Logo = styled.img`
   width: 45px;
   height: 45px;
-  margin-left: 5px;
+  padding:0;
+  margin-left: 20px;
+
 `;
 
 const Title = styled.p`
@@ -38,14 +42,26 @@ const Title = styled.p`
   margin:0;
   padding: 0;
   font-size: 24px;
+  margin-left: 20px;
+
+  
 `;
 
 const BoxTitles = styled.p`
   ${common}
-  margin:0;
-  padding: 0;
   margin-top: 17px;
   font-size: 16px;
+  margin-left: 20px;
 `;
 
-export { Container, Wrapper, MainItems, LogoItems, Logo, BoxTitles, Title };
+const SLOgo = styled.div`
+  display: flex;
+
+`;
+
+const SNS = styled.img`
+  width: 45px;
+  height: 45px;
+`;
+
+export { Container, Wrapper, MainItems, LogoItems,SLOgo,SNS,Logo, BoxTitles, Title };
